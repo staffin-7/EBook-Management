@@ -1,9 +1,9 @@
 # EBook-Management
-# spark-lms
-E book Management System developed in Spring Boot.
+
+E book Management System developed using Spring Boot.
 
 
-Functionalities
+# Functionalities
 It allows user to manage Members, Categories, Books and book issue.
 
 

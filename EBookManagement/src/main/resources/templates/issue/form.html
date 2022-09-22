@@ -67,10 +67,10 @@
 										<div class="col-sm-7" style="padding-left: 0px;">
 										
 											<div class="form-group">
-						                    	<label class="control-label col-md-3 col-sm-3 col-xs-12">Category</label>
+						                    	<label class="control-label col-md-3 col-sm-3 col-xs-12">Genre</label>
 						                        <div class="col-md-6 col-sm-6 col-xs-12">
 						                        	<select class="form-control" id="categorySel">
-						                        		<option value="">-- Select Category --</option>
+						                        		<option value="">-- Select Genre --</option>
 						                        		<option th:each="c : ${categories}" th:value="${c.id}" th:text="${c.name}"></option>
 						                        	</select>
 						                        </div>

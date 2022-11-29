@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org">
+
+
+<th:block th:fragment="tiles">
+	<!-- top tiles start -->
+	
+		
+			<span >  Members</span>
+			<div class="count green" th:text="${topTiles.totalMembers}"></div>
+		
+		
+			<span > Regular</span>
+			<div class="count" th:text="${topTiles.totalParents}"></div>
+		
+		
+			<span> Students</span>
+			<div class="count" th:text="${topTiles.totalStudents}"></div>
+		
+		
+			<span > Genre</span>
+			<div class="count green" th:text="${topTiles.totalCategories}"></div>
+	
+		
+			<span> Books</span>
+			<div class="count" th:text="${topTiles.totalBooks}"></div>
+		
+		
+			<span > On Hold</span>
+			<div class="count green" th:text="${topTiles.totalIssuedBooks}"></div>
+		
+	
+	<!-- top tiles end -->
+
+</th:block>
+
+</html>

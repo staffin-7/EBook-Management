@@ -1,5 +1,4 @@
-# spark-lms
-Library Management System developed in Spring Boot.
+Ebook Management System developed in Spring Boot.
 
 
 #### What does it offer?
